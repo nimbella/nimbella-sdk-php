@@ -1,0 +1,26 @@
+{
+  "name": "nimbella/nimbella",
+  "version": "1.0.0",
+  "description": "Nimbella SDK for PHP",
+  "type": "library",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Nimbella Corporation",
+      "homepage": "https://nimbella.com",
+      "email": "info@nimbella.com"
+    }
+  ],
+  "support": {
+    "chat": "https://nimbella/slack"
+  },
+  "require": {
+    "google/cloud-storage": "^1.16",
+    "predis/predis": "^1.1"
+  },
+  "autoload": {
+    "psr-0": {
+      "Nimbella": "src/"
+    }
+  }
+}
