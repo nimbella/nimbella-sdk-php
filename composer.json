@@ -1,6 +1,6 @@
 {
   "name": "nimbella/nimbella",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Nimbella SDK for PHP",
   "type": "library",
   "license": "Apache-2.0",
