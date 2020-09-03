@@ -26,8 +26,8 @@
     "predis/predis": "^1.1"
   },
   "autoload": {
-    "psr-0": {
-      "Nimbella": "src/"
+    "psr-4": {
+      "Nimbella\\": "src/"
     }
   }
 }
