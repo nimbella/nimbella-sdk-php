@@ -4,6 +4,13 @@
   "description": "Nimbella SDK for PHP",
   "type": "library",
   "license": "Apache-2.0",
+  "homepage": "https://nimbella.com",
+  "keywords": [
+    "nimbella",
+    "redis",
+    "serverless",
+    "openwhisk"
+  ],
   "authors": [
     {
       "name": "Nimbella Corporation",

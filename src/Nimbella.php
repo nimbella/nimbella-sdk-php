@@ -23,6 +23,11 @@ use \Google\Cloud\Storage\Bucket;
 
 class Nimbella
 {
+  /**
+   * Returns a configured redis client. 
+   * 
+   * @return \Predis\Client
+   */
   public function redis(): \Predis\Client
   {
     $redisIP = $_ENV['__NIM_REDIS_IP'];
@@ -40,6 +45,11 @@ class Nimbella
     }
   }
 
+  /**
+   * Returns a configured storage client. 
+   * 
+   * @return Bucket
+   */
   public function storage(): Bucket
   {
     $creds = $_ENV['__NIM_STORAGE_KEY'];
